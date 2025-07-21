@@ -87,3 +87,10 @@ main{
     margin-top:20px 0;
 }
 
+/* responsive-media query */
+@media screen and (max-width:576px) {
+    .nav-bar,.list-items{
+        flex-direction: column;
+    }
+    
+}
